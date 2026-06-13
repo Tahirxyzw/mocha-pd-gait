@@ -80,3 +80,4 @@ def get_indices(dataset):
       if s not in indices:
          indices[s]=[]
       indices[s].append(i)
+   return indices
